@@ -7,8 +7,6 @@
             const int MARCA_FI = 0;
             int num, positius, negatius;
 
-            int hola;
-
             positius = 0;
             negatius = 0;
 

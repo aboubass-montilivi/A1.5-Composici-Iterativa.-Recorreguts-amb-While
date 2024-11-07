@@ -16,7 +16,6 @@
             while (linia != MARCA_FI)
             {
                 contador++;
-                //num = Convert.ToInt32(linia);
                 Console.WriteLine($"A LA ITERACIÓ {contador} HI HA EL NUMERO {linia} ");
                 linia = sr.ReadLine();
             }

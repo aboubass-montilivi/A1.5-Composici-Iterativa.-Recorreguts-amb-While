@@ -21,17 +21,18 @@
 
                 num = Convert.ToInt32(Console.ReadLine());
 
+               
 
-                if (contador == 0)
-                {
-                    Console.WriteLine("No has entrat cap num");
-                }
-                else
-                {
-                    mitjana = 1.0 * suma / contador;
-                    Console.WriteLine($"La mitjana es {mitjana:0:00}");
-                }
+            }
 
+            if (contador == 0)
+            {
+                Console.WriteLine("No has entrat cap num");
+            }
+            else
+            {
+                mitjana = 1.0 * suma / contador;
+                Console.WriteLine($"La mitjana es {mitjana:0:00}");
             }
         }
     }
